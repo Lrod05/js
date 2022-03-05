@@ -1,0 +1,227 @@
+.p-con {
+    display: flex;
+    justify-content: center;
+}
+
+.right-col {
+    margin-left: 20px;
+}
+
+.left-col {
+    margin-left: 90px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    height: 50px;
+    background-color: black;
+}
+
+.nav-title {
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-links {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 850px;
+}
+
+.list {
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn {
+    color: white;
+    background-color: #17a2b8;
+    border-radius: 1px;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    align-content: end;
+}
+
+
+.p-con {
+    display: flex;
+}
+
+
+
+
+
+.card {
+    width: 500px;
+    height: 415px;
+    border-style: solid; 
+    border-color: #cdcdcd;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.box {
+    width: 500px;
+    height: 100px;
+    background-color: #17a2b8;
+}
+
+.profile-pic {
+    padding: 30px;
+}
+
+.content {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.profile-pic {
+    height: 90px;
+    width: 90px;
+}
+
+.pic {
+    width: 30px;
+    height: 30px;
+}
+
+.location, .profile {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: underline;
+    color: blue;
+    border: none;
+    background-color: white;
+}
+
+
+
+.con-req {
+    margin-top: 20px;
+    margin-right: 200px;
+    height: 200px;
+    width: 300px;
+    border-style: solid;
+    border-color: #cecece;
+}
+
+.user, .user1 {
+    height: 30px;
+    width: 30px;
+}
+
+.top-bar1, .top-bar2 {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: #333333;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tit-2 {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #cccccc;
+}    
+
+.x-type {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #cccccc;
+    width: 20px;
+    height: 20px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line1, .line2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.n-user {
+    margin-right: 70px;
+}
+
+.tit {
+    color: white;
+}
+
+
+
+
+.y-con {
+    height: 400px;
+    width: 300px;
+    border-style: solid;
+    border-color: #cecece;
+    margin-top: 20px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.y-stuff {
+    padding: 10px;
+}
+
+.user1 {
+    margin-right: 10px;
+}
+
+.low-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+.edu {
+    width: 500px;
+    height: 200px;
+    border: solid;
+    border-color: #cecece;
+    margin-top: 20px;
+}
+
+.top-bar3 {
+    width: 500px;
+    height: 50px;
+    background-color:#333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.edu-cont {
+    margin-left: 20px;
+}
+
+.card, .y-con {
+    display: flex;
+    flex-direction: column;
+}
