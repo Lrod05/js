@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="btnclicker.css">
+    <title>Button Clicker</title>
+    <script src="btnclicker.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <h1>Dojonary</h1>
+            <input type="text" value="Search">
+            <button class="login" onclick="turnOff(this)">Login</button>
+        </div>
+        <div class="page-con">
+            <div class="column-l">
+                <div class="ninja">
+                    <div class="column-1a">
+                        <h1>ninja</h1>
+                        <em>noun</em>
+                        <h3>Plural: <em>ninjas</em></h3>
+                        <button class="like" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="column-right">
+                        <h3>A practitioner skilled in the <br> <a class="word-def">Japanese</a> art of <a class="word-def">ninjutsu</a></h3>
+                    </div>
+                </div>
+                <div class="ninja">
+                    <div class="column-2a">
+                        <h1>ninja</h1>
+                        <em>noun</em>
+                        <h3>Plural: <em>ninjas</em></h3>
+                        <button class="like" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="column-right">
+                        <h3>A <a class="word-def">programmer</a> who breaks <br> down problems with <a class="word-def">zen</a>-like <br> focus</h3>
+                    </div>
+                </div>    
+            </div>
+            <div class="column-2">
+                <h2>Dojonary is <br> defined by YOU</h2>
+                <button class="def" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
